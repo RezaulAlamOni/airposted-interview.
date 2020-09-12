@@ -26,7 +26,13 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+import Blogs from "./components/Blogs";
 
 const app = new Vue({
     el: '#app',
+    components :{
+        Blogs
+    }
+
+
 });

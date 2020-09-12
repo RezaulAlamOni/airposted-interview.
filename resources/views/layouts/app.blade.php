@@ -76,5 +76,10 @@
             @yield('content')
         </main>
     </div>
+
+    <script>
+        window.api_token = '{{Auth::user()->api_token}}';
+        window.app_url = '{{ config('app.url') }}'
+    </script>
 </body>
 </html>
